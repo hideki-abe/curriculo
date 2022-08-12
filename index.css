@@ -134,12 +134,25 @@ img:hover{
 
 ul{
     display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 2em;
     margin-left: 1em;
+    width: fit-content;
 }
 
 li{ 
     line-height: 1.5em;
+    width: fit-content;
+}
+
+.aprendizado{
+    display: inline-block;
+
+}
+
+.linguagens{
     width: fit-content;
 }
 
@@ -160,6 +173,10 @@ li{
     top: 30%;
     color: white;
 }
+
+
+
+
 
 
 @media  (max-width: 700px) {
