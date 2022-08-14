@@ -60,7 +60,8 @@ li:nth-child(odd) {          /* este css será aplicato nos LI impares (1, 3, 5.
 @media  (max-width: 700px) {
 
     h1{
-        font-size: 2em;
+        width: 100%;
+        font-size: 1.8em;
     }
 
     .dados_pessoais{
@@ -70,7 +71,7 @@ li:nth-child(odd) {          /* este css será aplicato nos LI impares (1, 3, 5.
         
     }
     p{
-        text-align: justify;
+        text-align: center;
         margin-left: 0;
     }
 
