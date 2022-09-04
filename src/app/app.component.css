@@ -12,11 +12,6 @@ a:hover{
     transition: 0.5s;
 }
 
-.apresentacao {
-    background-image: linear-gradient(to bottom, #34496f 20%, rgb(25, 3, 61));
-
-}
-
 .nome{
     color: aliceblue;
     margin-left: auto;
@@ -75,7 +70,15 @@ img:hover{
 
 }
 
-#footer{
+#header{
+    background-image: url(../assets/footer.jpg);
+    background: url(../assets/footer.jpg) no-repeat left top, linear-gradient(#eb01a5, #d13531);
+    background-size:100%;
+}
+
+footer{
+    background-image: url(../assets/footer.jpg);
+    background-size:100%;
     position: relative;
     color: white;
     bottom: 0px;
