@@ -52,12 +52,14 @@ a:hover{
 }
 
 #location{
-    width: fit-content;
     color: aliceblue;
+    width: fit-content;
+    align-self: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
 }
+
 
 
 .descricao{
