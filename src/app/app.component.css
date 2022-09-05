@@ -71,24 +71,34 @@ a:hover{
 
 #header{
     background-image: url(../assets/footer.jpg);
+    background-repeat: no-repeat;
     background-size:100%;
 }
 
 footer{
     background-position: bottom;
     background-image: url(../assets/footer.jpg);
+    background-repeat: no-repeat;
     background-size:100%;
     position: relative;
     color: white;
     bottom: 0px;
     margin-top: 10rem;
-    background-color: rgb(25, 3, 61);
     height: 200px;
     padding-bottom: 2em;
   
 }
 
 @media  (max-width: 700px) {
+
+    #header{
+      background-size: 400%;
+    }
+    
+    footer{
+      background-size: 400%;
+      
+    }
 
     .descricao{
         text-align: justify;
